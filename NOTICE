@@ -1,0 +1,35 @@
+DeepInfer Notes
+===============
+
+This repository contains analysis of DeepSeek-AI/DeepInfer.
+
+Third-party material
+--------------------
+
+The images under `figs/` that are named `architecture_overview.png`,
+`wide_ep_decode_pareto.png`, `decode_pareto.png` and `prefill_pareto.png`
+are copied unmodified from DeepSeek-AI/DeepInfer:
+
+  https://github.com/deepseek-ai/DeepInfer
+
+They are licensed under the Apache License, Version 2.0.
+A copy of that license is provided in licenses/APACHE-2.0.txt.
+No modifications were made to these files.
+
+Code excerpts quoted in `deepinfer-deep-dive.md` are also from DeepSeek-AI/DeepInfer,
+reproduced under the same license, for the purpose of commentary and analysis.
+
+Original work
+-------------
+
+Everything else in this repository — the written analysis, the file
+`figs/async_pipeline.png`, the spreadsheet, and the scripts under `scripts/` —
+is original work by the repository author, licensed under
+CC BY-NC-SA 4.0 (text and figures) and MIT (scripts), respectively.
+
+Disclaimer
+----------
+
+Cost figures in this repository are estimates derived from publicly available
+numbers. They are not DeepSeek's financial data, and they are not investment
+or procurement advice.
