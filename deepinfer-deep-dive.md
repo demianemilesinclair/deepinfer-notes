@@ -1,4 +1,4 @@
-# DeepInfer: architecture, load balancing, scheduling, and cost
+# Notes on DeepInfer
 
 DeepSeek open-sourced DeepInfer in October 2026, under Apache-2.0. It is the
 inference framework behind DeepSeek V4.1 Flash. This note covers how the system
@@ -119,8 +119,8 @@ expert resides on one GPU, or on its replicas. If 30% of a layer's tokens route
 to one expert, the GPU holding it determines the step time, and the other 63
 GPUs wait.
 
-EPLB addresses this with three operations: choose which experts receive replicas,
-place the replicas on GPUs, and move weights when the plan changes.
+EPLB selects which experts receive replicas, places those replicas on GPUs, and
+moves weights when the plan changes.
 
 ### 3.1 Terminology
 

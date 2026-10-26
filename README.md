@@ -14,7 +14,7 @@ numbers.
 
 | File | Description |
 |---|---|
-| [`deepinfer-deep-dive.md`](deepinfer-deep-dive.md) | Main write-up: architecture, load balancing, scheduling, cost |
+| [`deepinfer-deep-dive.md`](deepinfer-deep-dive.md) | Main write-up |
 | [`deepinfer-128gpu-cost-model.xlsx`](deepinfer-128gpu-cost-model.xlsx) | Editable cost model; change the yellow cells and the sheets recompute |
 | `figs/async_pipeline.png` | Diagram of the scheduling overlap |
 | `figs/` (four other images) | From the DeepInfer repository, see [NOTICE](NOTICE) |
